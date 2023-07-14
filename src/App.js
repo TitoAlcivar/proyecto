@@ -1,17 +1,15 @@
 import { Form } from "./components/Form";
-import { ToDoList } from "./components/ToDoList";
 
 
 
 function App() {
 
-  return(
+  return (
     <>
-    <Form/>
-    <ToDoList/>
+      <Form/>
     </>
   )
-    
-  
+
+
 }
 export default App;

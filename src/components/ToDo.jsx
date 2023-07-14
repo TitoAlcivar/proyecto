@@ -1,5 +1,5 @@
 import React from 'react'
-import { Form } from './Form'
+
 
 export const ToDo = ({ form }) => {
 
@@ -11,9 +11,9 @@ export const ToDo = ({ form }) => {
 
                     <div>
 
-                        <p>Priority:{form}</p>
-                        <p>Finish: {form}</p>
-                        <p>Date: {form}</p>
+                        <p>Priority:{}</p>
+                        <p>Finish: {}</p>
+                        <p>Date: {}</p>
 
                     </div>
 
