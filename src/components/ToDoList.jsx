@@ -1,13 +1,24 @@
 import React from 'react'
 import { ToDo } from './ToDo'
-import { Form } from './Form'
 
 
 
-export const ToDoList = ({}) => {
-    return <>
-        
-    </>
+
+export const ToDoList = ({ tasks, setTasks }) => {
+    
+    return (
+        <div className='grid grid-cols-4 gap-3'>
+            {
+                tasks.map((element, i) => (
+
+                    <ToDo element={element} key={i} setTasks={setTasks} />
+                ))
+            }
+        </div>
+
+    )
+
+
 
 
 }
